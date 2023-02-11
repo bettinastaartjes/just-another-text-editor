@@ -14,7 +14,7 @@ const initdb = async () =>
   });
 
 // TODO: Add logic to a method that accepts some content and adds it to the database. Get the text from indexedDB
-export const putDb = async (content) => console.error('putDb not implemented');
+export const putDb = async (content) => {
   const jateDB = await openDB('jate',1);
   const tx = jateDB.trasaction('jate', 'readwrite');
   const store = tx.objectStore('jate')
