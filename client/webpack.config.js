@@ -11,9 +11,10 @@ const { InjectManifest } = require('workbox-webpack-plugin');
 module.exports = () => {
   return {
     mode: 'development',
-    entry: 'Develop/client/src/js/index.js',
-    install: './src/js/install.js'
-    }
+    entry: {
+      main: './src/js/index.js',
+      install: './src/js/install.js'
+    },
     //do i need to change output file name??
     output: {
       filename: '[name].bundle.js',
@@ -25,7 +26,6 @@ module.exports = () => {
         title: 'Webpack Plugin',
       })
     ]
-
     module: {
       rules: [
         {
