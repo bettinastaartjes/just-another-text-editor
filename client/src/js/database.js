@@ -1,3 +1,4 @@
+//listo 
 import { openDB } from 'idb';
 
 //creating the database

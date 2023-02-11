@@ -1,8 +1,5 @@
 {
   "name": "JATE",
-  "version": "1.0.0",
-  "description": "",
-  "private": "true",
   "scripts": {
     "dev": "webpack-dev-server",
     "build": "webpack --mode development",
