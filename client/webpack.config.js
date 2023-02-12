@@ -29,6 +29,7 @@ module.exports = () => {
         swSrc: './src-sw.js',
         swDest: 'src-sw.js',
       }),
+      //manifest.json file
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
