@@ -1,16 +1,11 @@
-# 19 Progressive Web Applications (PWA): Text Editor
+# Description
+A text editor app that runs in the browser. This is a single page application that meets the PWA crtiera and also functions offline. This app is deployed to Heroku. 
 
-As you have progressed through this course, you have put together a number of impressive projects that you can show off to potential employers. This project is no exception; in fact, it features some of the most impressive expressions of the concepts you have learned so far.
+# Installation
+To use the app ,run npm install command to install dependencies. Then run npm run start:dev.
 
-Your task is to build a text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
-
-To build this text editor, you will start with an existing application and implement methods for getting and storing data to an IndexedDB database. You will use a package called `idb`, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla.
-
-You will deploy this full-stack application to Heroku using the [Heroku Deployment Guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/heroku/heroku-deployment-guide).
-
-> **Important:** Make sure to clone the starter code repository and make your own repository with the starter code. Do not fork the starter code repository!
-
-Before you start, clone [the starter code](https://github.com/coding-boot-camp/cautious-meme).
+# Heroku Deployed Link
+Link: https://radiant-sierra-19408.herokuapp.com/
 
 ## User Story
 
@@ -79,14 +74,3 @@ You will also use IndexedDB and [idb](https://www.npmjs.com/package/idb), a smal
 To add offline function, you will use [Workbox](https://developers.google.com/web/tools/workbox), which is a set of libraries that can generate a production-ready service worker for your Progressive Web App. Service workers were covered in **Lesson 4**.
 
 Finally, in **Lesson 5**, you learned how to make your app installable and deploy in production mode. For this project, you will practice those skills by adding an `manifest.json` and then deploy your finished application with Heroku.
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
